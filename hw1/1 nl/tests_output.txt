@@ -1,0 +1,81 @@
+test1:
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/1 nl$ nl -b a
+line1
+     1  line1
+
+     2
+line3
+     3  line3
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/1 nl$ python3 nl.py
+line1
+1 line1
+
+2
+line3
+3 line3
+
+test2:
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/1 nl$ nl test_file1.txt
+     1  line1 word
+     2  line2 word
+     3  line3 word
+     4  line4 word
+     5  line5 word
+     6  line6 word
+     7  line7 word
+     8  line8 word
+     9  line9 word
+    10  line10 word
+    11  line11 word
+    12  line12 word
+    13  line13 word
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/1 nl$ python3 nl.py test_file1.txt
+1 line1 word
+2 line2 word
+3 line3 word
+4 line4 word
+5 line5 word
+6 line6 word
+7 line7 word
+8 line8 word
+9 line9 word
+10 line10 word
+11 line11 word
+12 line12 word
+13 line13 word
+
+test3:
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/1 nl$ nl test_file2.txt
+     1  line1 word
+     2  line2 word
+     3  line3 word
+     4  line4 word
+     5  line5 word
+     6  line6 word
+     7  line7 word
+     8  line8 word
+     9  line9 word
+    10  line10 word
+    11  line11 word
+    12  line12 word
+
+    13  line14 word
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/1 nl$ python3 nl.py test_file2.txt
+1 line1 word
+2 line2 word
+3 line3 word
+4 line4 word
+5 line5 word
+6 line6 word
+7 line7 word
+8 line8 word
+9 line9 word
+10 line10 word
+11 line11 word
+12 line12 word
+
+13 line14 word

@@ -1,0 +1,32 @@
+test1:
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/3 wc$ wc
+word1 word2
+
+word3
+      3       3      19
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/3 wc$ python3 wc.py
+word1 word2
+
+word3
+3 3 19
+
+
+test2:
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/3 wc$ wc test_file2.txt
+ 2  5 30 test_file2.txt
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/3 wc$ python3 wc.py test_file2.txt
+  2 5 30 test_file2.txt
+e
+
+test3:
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/3 wc$ wc test_file1.txt test_file2.txt test_file2.txt
+ 3  6 36 test_file1.txt
+ 2  5 30 test_file2.txt
+ 2  5 30 test_file2.txt
+ 7 16 96 total
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/3 wc$ python3 wc.py test_file1.txt test_file2.txt test_file2.txt
+  3 6 36 test_file1.txt
+  2 5 30 test_file2.txt
+  2 5 30 test_file2.txt
+  7 16 96 total
+e

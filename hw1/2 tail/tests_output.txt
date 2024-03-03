@@ -1,0 +1,123 @@
+test1:
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/2 tail$ tail
+line1
+
+line3
+line1
+
+line3
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/2 tail$ python3 tail.py
+line1
+
+line3
+line1
+
+line3
+
+
+test2:
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/2 tail$ tail test_file1.txt
+line4 word
+line5 word
+line6 word
+line7 word
+line8 word
+line9 word
+line10 word
+line11 word
+line12 word
+line13 word
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/2 tail$ python3 tail.py test_file1.txt
+line4 word
+line5 word
+line6 word
+line7 word
+line8 word
+line9 word
+line10 word
+line11 word
+line12 word
+line13 word
+
+
+test3:
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/2 tail$ tail test_file2.txt
+line5 word
+line6 word
+line7 word
+line8 word
+line9 word
+line10 word
+line11 word
+line12 word
+
+line14 word
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/2 tail$ python3 tail.py test_file2.txt
+line5 word
+line6 word
+line7 word
+line8 word
+line9 word
+line10 word
+line11 word
+line12 word
+
+line14 word
+
+test4:
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/2 tail$ tail test_file1.txt test_file2.txt
+==> test_file1.txt <==
+line4 word
+line5 word
+line6 word
+line7 word
+line8 word
+line9 word
+line10 word
+line11 word
+line12 word
+line13 word
+
+==> test_file2.txt <==
+line5 word
+line6 word
+line7 word
+line8 word
+line9 word
+line10 word
+line11 word
+line12 word
+
+line14 word
+
+
+evgenii@evgenii-Thin-GF63-12VF:~/MyEducation/python/hw1/2 tail$ python3 tail.py test_file1.txt test_file2.txt
+
+==> test_file1.txt <==
+line4 word
+line5 word
+line6 word
+line7 word
+line8 word
+line9 word
+line10 word
+line11 word
+line12 word
+line13 word
+
+==> test_file2.txt <==
+line5 word
+line6 word
+line7 word
+line8 word
+line9 word
+line10 word
+line11 word
+line12 word
+
+line14 word
