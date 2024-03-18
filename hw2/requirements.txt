@@ -1,1 +1,2 @@
-pylatex
+pdflatex==0.1.3
+PyLaTeX==1.4.2
